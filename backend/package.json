@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "tsc && node dist/app.js",
-    "dev": "nodemon src/app.ts",
+    "serve": "tsc && node dist/server.js",
+    "dev": "nodemon src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "1.19.1",
     "express": "4.17.2"
   },
   "devDependencies": {
